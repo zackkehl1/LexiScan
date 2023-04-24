@@ -1,5 +1,4 @@
 import speech_recognition as sr
-
 from langdetect import detect, DetectorFactory
 
 def recognize_speech_from_mic(recognizer, microphone):
